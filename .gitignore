@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/laravel,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=laravel,node
+# Created by https://www.toptal.com/developers/gitignore/api/laravel,node,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=laravel,node,visualstudiocode
 
 ### Laravel ###
 /vendor/
@@ -143,4 +143,15 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# End of https://www.toptal.com/developers/gitignore/api/laravel,node
+### VisualStudioCode ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/laravel,node,visualstudiocode
